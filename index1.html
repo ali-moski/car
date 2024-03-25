@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>فرم ثبت نام</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>فرم ثبت نام خودرو</h1>
+
+<form action="process.php" method="post">
+
+  <label for="username">نام کاربری:</label>
+  <input type="text" name="username" id="username" class="username-input">
+  <span class="username-input-error">نام کاربری باید دارای 8 کارکتر باشد</span>
+
+  <label for="name">نام:</label>
+  <input type="text" name="name" id="name" class="name-input">
+  <span class="name-input-error">نام کاربری باید دارای 8 کارکتر باشد</span>
+
+  <label for="family">نام خانوادگی:</label>
+  <input type="text" name="family" id="family" class="family-input">
+  <span class="family-input-error">نام خانوادگی باید دارای 8 کارکتر باشد</span>
+
+  <label for="email">ایمیل:</label>
+  <input type="email" name="email" id="email" class="email-input">
+  <span class="email-input-error"></span>
+
+  <label for="password">رمز عبور:</label>
+  <input type="password" name="password" id="password" class="password-input">
+  <span class="password-input-error"></span>
+
+  <input type="submit" value="ثبت نام">
+
+</form>
+
+<script src="./form.js"></script>
+</body>
+</html>
